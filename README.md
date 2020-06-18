@@ -12,4 +12,4 @@ The results is trained 50 epoch, pretrained model can be download in [here]()(fe
 b. other pretrained model [b1](), [b2](), ..., [b7]() and results is updating...
 # How to use
 # PS
-If it is helpful, please cite:
+If you have questions, post them as GitHub issues.
