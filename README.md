@@ -1,5 +1,5 @@
 # Insightface_EfficientNet
-This repo implements the Deep Face Recognition part of Insightface([github](https://github.com/deepinsight/insightface))  with a backbone of EfficientNet([github](https://github.com/lukemelas/EfficientNet-PyTorch)). 
+Pytorch implements the Deep Face Recognition part of Insightface([github](https://github.com/deepinsight/insightface))  with a backbone of EfficientNet([github](https://github.com/lukemelas/EfficientNet-PyTorch)). 
 # About EfficientNet
 Official explanation: EfficientNets are a family of image classification models, which achieve state-of-the-art accuracy, yet being an order-of-magnitude smaller and faster than previous models. We develop EfficientNets based on AutoML and Compound Scaling. In particular, we first use [AutoML Mobile framework](https://ai.googleblog.com/2018/08/mnasnet-towards-automating-design-of.html) to develop a mobile-size baseline network, named as EfficientNet-B0; Then, we use the compound scaling method to scale up this baseline to obtain EfficientNet-B1 to B7.
 <table border="0">
@@ -26,7 +26,7 @@ Details about the EfficientNet models are below:
 | `efficientnet-b7` |    66M   |    84.4    |
 
 # Data Preparation for face recognition
-downloading the Training data [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face is detected by MTCNN and resized to 112x112. you can tansfer the `.bin` or `.rec` files into images(.jpg) by using the script `GetImages.py`.
+downloading the Training data [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face is detected by MTCNN and resized to 112x112. If you need to tansfer the `.bin` or `.rec` files into images(.jpg),please run the script like `python GetImages.py` under your data fold, note that maxnet should be install.
 # Training strategies and results  
 a. EfficientNet(b0,Params is 5.3M) with batchsize 80 + Argface(m=64,s=0.5) + focalloss(gam=2)  
 The results is trained 50 epoch, pretrained model can be download in [here]()(few days late...).  
