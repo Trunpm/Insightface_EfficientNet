@@ -26,7 +26,7 @@ Details about the EfficientNet models are below:
 | `efficientnet-b7` |    66M   |    84.4    |
 
 # Data Preparation for face recognition
-downloading the Training data [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face is detected by MTCNN and resized to 112x112. If you need to tansfer the `.bin` or `.rec` files into images(.jpg),please run the script like `python GetImages.py` under your data fold, note that maxnet should be install.
+downloading the Training data [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face is detected by MTCNN and resized to 112x112. If you need to tansfer the `.bin` or `.rec` files into images(.jpg),please run the script `python GetImages.py` under your data fold, note that maxnet should be install.
 # Training strategies and results  
 a. EfficientNet(b0,Params is 5.3M) with batchsize 80 + Argface(m=64,s=0.5) + focalloss(gam=2)  
 The results is trained 50 epoch, pretrained model can be download in [here]()(few days late...).  
