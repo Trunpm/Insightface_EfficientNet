@@ -2,6 +2,7 @@
 Pytorch implements the Deep Face Recognition part of Insightface([github](https://github.com/deepinsight/insightface))  with a backbone of EfficientNet([github](https://github.com/lukemelas/EfficientNet-PyTorch)). 
 # About EfficientNet
 Official explanation: EfficientNets are a family of image classification models, which achieve state-of-the-art accuracy, yet being an order-of-magnitude smaller and faster than previous models. We develop EfficientNets based on AutoML and Compound Scaling. In particular, we first use [AutoML Mobile framework](https://ai.googleblog.com/2018/08/mnasnet-towards-automating-design-of.html) to develop a mobile-size baseline network, named as EfficientNet-B0; Then, we use the compound scaling method to scale up this baseline to obtain EfficientNet-B1 to B7.
+
 <table border="0">
 <tr>
     <td>
