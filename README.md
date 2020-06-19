@@ -1,5 +1,4 @@
 # Insightface_EfficientNet
-# Intro
 This repo implements the Deep Face Recognition part of Insightface([github](https://github.com/deepinsight/insightface))  with a backbone of EfficientNet([github](https://github.com/lukemelas/EfficientNet-PyTorch)). 
 # Training strategies and results
 Training data is [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face detect by MTCNN and resized to 112x112.  
