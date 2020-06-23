@@ -30,11 +30,16 @@ Details about the EfficientNet models are below:
 downloading the Training data [MS1M](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo), face is detected by MTCNN and resized to 112x112. If you need to tansfer the `.bin` or `.rec` files into images(.jpg),please run the script `python GetImages.py` under your data fold, note that maxnet should be install.
 # Training strategies and results  
 a. EfficientNet(b0,Params is 5.3M) with batchsize 80 + Argface(m=64,s=0.5) + focalloss(gam=2)  
-The results is trained 50 epoch, pretrained model can be download in [here]()(few days late...).  
 | LFW(%) | CFP-FF(%) | CFP-FP(%) | AgeDB-30(%) | calfw(%) | cplfw(%) | vgg2_fp(%) |
 | ------ | --------- | --------- | ----------- | -------- | -------- | ---------- |
 | 0.9955 | 0.9940   | 0.9347   | 0.9545      | 0.9532  | 0.8973  | 0.9320    |  
 
-b. other pretrained model b1, b2, ..., b7 and results is updating...
+b. EfficientNet(b7,Params is 66M) with batchsize 80 + Argface(m=64,s=0.5) + focalloss(gam=2)  
+The results is only trained 20 epoch, pretrained model can be download in [here](https://pan.baidu.com/s/1nhrVz33Bc09E0UNhhMzb1Q)(code:wkd2).  
+| LFW(%) | CFP-FF(%) | CFP-FP(%) | AgeDB-30(%) | calfw(%) | cplfw(%) | vgg2_fp(%) |
+| ------ | --------- | --------- | ----------- | -------- | -------- | ---------- |
+| 0.9973 | 0.9967   | 0.9620   | 0.9705      | 0.9553  | 0.9105  | 0.9428    |  
+
+c.other pretrained model b1, b2, ..., b6 and results is updating...
 # PS
 If you have questions, post them as GitHub issues.
