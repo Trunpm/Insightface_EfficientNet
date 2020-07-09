@@ -35,7 +35,7 @@ a. EfficientNet(b0,Params is 5.3M) with batchsize 80 + Argface(m=64,s=0.5) + foc
 | 0.9955 | 0.9940   | 0.9347   | 0.9545      | 0.9532  | 0.8973  | 0.9320    |  
 
 b. EfficientNet(b7,Params is 66M) with batchsize 80 + Argface(m=64,s=0.5) + focalloss(gam=2)  
-The results is only trained 20 epoch, pretrained model can be download in [here](https://pan.baidu.com/s/1nhrVz33Bc09E0UNhhMzb1Q)(code:wkd2).  
+The results is only trained 20 epoch, pretrained model can be download in [here](https://pan.baidu.com/s/1nhrVz33Bc09E0UNhhMzb1Q)(baidu drive, code:wkd2) or [here](https://drive.google.com/file/d/1CiveiSBjmKc5__uBrBpJ2orYkg8ZG2CZ/view?usp=sharing)(google drive).  
 | LFW(%) | CFP-FF(%) | CFP-FP(%) | AgeDB-30(%) | calfw(%) | cplfw(%) | vgg2_fp(%) |
 | ------ | --------- | --------- | ----------- | -------- | -------- | ---------- |
 | 0.9973 | 0.9967   | 0.9620   | 0.9705      | 0.9553  | 0.9105  | 0.9428    |  
